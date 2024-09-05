@@ -1,0 +1,85 @@
+/* Estilos gerais para a página about.html */
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url("../images/bg-signin.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    color: #333; 
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background: #272262;
+    color: white;
+    padding: 1rem 0;
+    text-align: center;
+    height: 130px;
+
+    box-sizing: border-box;
+    margin: 0;
+}
+
+header h1 { 
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-size: 2em;
+}
+
+nav, nav ul, nav ul li {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+    list-style: none;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+}
+
+main {
+    padding: 20px;
+    max-width: 800px;
+    margin: 20px auto;
+    background: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    color: #272262;
+}
+
+.empresa {
+    margin-bottom: 20px;
+}
+
+.contato ul {
+    list-style: none;
+    padding: 0;
+}
+
+.contato li {
+    margin-bottom: 10px;
+}
+
+.contato i {
+    margin-right: 10px;
+}
+
+footer {
+    background: #333;
+    color: white;
+    text-align: center;
+    padding: 1rem 0;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
