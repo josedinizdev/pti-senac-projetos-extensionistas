@@ -12,7 +12,7 @@ body {
 }
 
 header {
-    background-color: #272262;
+    background-color: #00534e;
     color: #fff;
     padding: 20px 0;
     text-align: center;
@@ -50,7 +50,7 @@ section.catalogo {
 
 section.catalogo h2 {
     font-size: 24px;
-    color: #272262;
+    color: #00534e;
     margin-bottom: 30px;
     text-align: center;
 }
@@ -92,18 +92,18 @@ section.catalogo h2 {
     padding: 10px 20px;
     font-size: 16px;
     color: #fff;
-    background-color: #272262;
+    background-color: #00534e;
     border: none;
     border-radius: 4px;
     cursor: pointer;
 }
 
 .servico button:hover {
-    background-color: #272262;
+    background-color: #00534e;
 }
 
 footer {
-    background-color: #272262;
+    background-color: #00534e;
     color: #fff;
     text-align: center;
     padding: 20px 0;
