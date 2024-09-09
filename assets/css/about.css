@@ -14,7 +14,7 @@ header {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    background: #00534e;
+    background: #E3EDC0;
     color: white;
     padding: 1rem 0;
     text-align: center;
@@ -29,6 +29,7 @@ header h1 {
     padding: 0;
     margin: 0;
     font-size: 2em;
+    color: #333;
 }
 
 nav, nav ul, nav ul li {
@@ -43,6 +44,7 @@ nav a {
     color: white;
     text-decoration: none;
     margin: 0 15px;
+    color: #333;
 }
 
 main {
@@ -54,7 +56,7 @@ main {
 }
 
 h2 {
-    color: #00534e;
+    color: #060707;
 }
 
 .empresa {
@@ -75,11 +77,11 @@ h2 {
 }
 
 footer {
-    background: #333;
-    color: white;
+    background: #E3EDC0;
     text-align: center;
     padding: 1rem 0;
     position: fixed;
     width: 100%;
     bottom: 0;
+    color: #333;
 }

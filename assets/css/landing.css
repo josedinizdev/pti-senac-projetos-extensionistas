@@ -33,7 +33,7 @@ header {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    background: #00534e;
+    background: #E3EDC0;
     color: white;
     padding: 1rem 0;
     text-align: center;
@@ -41,13 +41,15 @@ header {
 }
 
 header h2 { 
-    font-size: 2em;
+    font-size: 2em; 
+    color: #060707;
 }
 
 nav a {
     color: white;
     text-decoration: none;
     margin: 0 15px;
+    color: #060707;
 }
 
 main {
@@ -66,12 +68,13 @@ section.abertura h2 {
     font-size: 24px;
     color: #9cfff8;
     margin-bottom: 10px;
+    color: #060707;
 }
 
 section.abertura h1 {
     font-size: 36px;
-    color: #333;
     margin-bottom: 30px;
+    color: #060707;
 }
 
 .row {
@@ -83,15 +86,15 @@ section.abertura h1 {
 .abertura a {
     padding: 10px 20px;
     font-size: 16px;
-    color: #fff;
-    background-color: #00534e;
+    color: #060707;
+    background-color: #85FFF7;
     border: none;
     border-radius: 4px;
     cursor: pointer;
 }
 
 .abertura a:hover {
-    background-color: #00534e;
+    background-color: #85FFF7;
 }
 
 section.sobre {
@@ -134,7 +137,7 @@ section.qualidades div {
 
 section.qualidades h3 {
     font-size: 22px;
-    color: #00534e;
+    color: #85FFF7;
     margin-bottom: 10px;
 }
 
@@ -146,7 +149,7 @@ section.qualidades p {
 
 section.opinioes h2 {
     font-size: 24px;
-    color: #00534e;
+    color: #060707;
     margin-bottom: 30px;
 }
 
@@ -166,7 +169,7 @@ section.opinioes h2 {
 .opinioes-container h4 {
     font-size: 18px;
     margin-bottom: 10px;
-    color: #333;
+    color: #060707;
 }
 
 .opinioes-container p {
@@ -183,8 +186,8 @@ section.opinioes h2 {
 }
 
 footer {
-    background-color: #00534e;
-    color: #fff;
+    background-color: #E3EDC0;
+    color: #060707;
     text-align: center;
     padding: 20px 0;
     margin-top: 40px;
